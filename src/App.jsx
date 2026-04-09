@@ -1510,17 +1510,22 @@ function Help() {
               className="group border border-[#D97706]/15 hover:border-[#D97706]/40 transition-all duration-300"
             >
               <button
-                onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-[#1A1107]/50 transition-colors duration-300"
+                     onMouseEnter={() => setOpenFaqIndex(index)}
+                    onMouseLeave={() => setOpenFaqIndex(null)}
+                     className="w-full flex items-center justify-between p-6 text-left hover:bg-[#1A1107]/50 transition-colors duration-300"
               >
-                <h3 className="font-serif text-lg md:text-xl text-[#FCD34D] group-hover:text-[#F59E0B] transition-colors flex-1">
+                 <h3 className="font-serif text-lg md:text-xl text-[#FCD34D] group-hover:text-[#F59E0B] transition-colors flex-1 pr-4">
                   {faq.question}
                 </h3>
-                <div className={`text-2xl text-[#D97706] ml-4 flex-shrink-0 transition-transform duration-300 ${openFaqIndex === index ? "rotate-180" : ""}`}>
-                  ▼
-                </div>
-              </button>
 
+                 <span
+                  className={`text-xl text-[#D97706] transition-transform duration-300 ${
+                  openFaqIndex === index ? "rotate-180" : ""
+                  }`}
+                  >
+    ▼
+                 </span>
+             </button>
               {openFaqIndex === index && (
                 <div className="border-t border-[#D97706]/10 px-6 py-4 bg-[#1A1107]/30 animate-in fade-in slide-in-from-top-2 duration-300">
                   <p className="text-[#D4AF85] leading-relaxed font-light" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
