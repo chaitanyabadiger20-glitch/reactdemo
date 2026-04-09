@@ -881,9 +881,9 @@ const NAV_LINKS = ["Home", "About", "Services", "Portfolio", "Help", "Contact"];
 
 const DISHES = [
   { name: "Saffron Lamb Tagine", desc: "Tender lamb, dried apricots, almonds, preserved lemon", tag: "Chef's Signature", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" },
-  { name: "Moroccan Seafood Couscous", desc: "Fresh catch, pearled couscous, roasted vegetables, chermoula", tag: "Most Loved", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" },
-  { name: "Za'atar Crusted Branzino", desc: "Wood-fired, sumac, olive oil, herb salad", tag: "Vegetarian", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" },
-  { name: "Spiced Dates & Pistachio", desc: "Stuffed with goat cheese, pomegranate molasses, rose petals", tag: "Seasonal", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80" },
+  { name: "Moroccan Seafood Couscous", desc: "Fresh catch, pearled couscous, roasted vegetables, chermoula", tag: "Most Loved", img: "https://tse2.mm.bing.net/th/id/OIP.z56KBVobVQUoxuAizoBfwgHaEO?pid=Api&P=0&h=220" },
+  { name: "Za'atar Crusted Branzino", desc: "Wood-fired, sumac, olive oil, herb salad", tag: "Vegetarian", img: "https://panmastery.com/wp-content/uploads/2025/11/ZaatarCrusted-Roast-Chicken-with-Herbed-Couscous.jpg" },
+  { name: "Spiced Dates & Pistachio", desc: "Stuffed with goat cheese, pomegranate molasses, rose petals", tag: "Seasonal", img: "https://tse1.mm.bing.net/th/id/OIP.Ixunqn767Esxp4rok-fTgwHaHa?pid=Api&P=0&h=220" },
 ];
 
 const USPS = [
@@ -907,17 +907,17 @@ const SERVICES = [
 ];
 
 const PORTFOLIO_ITEMS = [
-  { category: "Food", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80", title: "Saffron Elegance" },
-  { category: "Interior", img: "https://images.unsplash.com/photo-1522157183959-39b1e2e50ebc?w=600&q=80", title: "The Grand Hall" },
-  { category: "Food", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80", title: "Spiced Perfection" },
-  { category: "Events", img: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80", title: "Desert Celebration" },
-  { category: "Interior", img: "https://images.unsplash.com/photo-1564636684928-8f5293c34c16?w=600&q=80", title: "Amber Lounge" },
-  { category: "Food", img: "https://images.unsplash.com/photo-1509439066919-dfc8dba36dd1?w=600&q=80", title: "Spice Heritage" },
-  { category: "Events", img: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&q=80", title: "Festival Evening" },
-  { category: "Interior", img: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80", title: "Sunset Terrace" },
-  { category: "Food", img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", title: "Dessert Art" },
-  { category: "Events", img: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80", title: "Gala Night" },
-  { category: "Interior", img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80", title: "Tea House" },
+  { category: "Food", img: "https://tse2.mm.bing.net/th/id/OIP.X8sCyJdvtxr2aNLyHmhxcQHaE7?pid=Api&P=0&h=220", title: "Saffron Elegance" },
+  { category: "Interior", img: "https://pittsburghsgrandhall.com/images/home/eventspace.jpg", title: "The Grand Hall" },
+  { category: "Food", img: "https://tse3.mm.bing.net/th/id/OIP.zl3I5Vdw5aKAeUfnbRxZcwHaE8?pid=Api&P=0&h=220", title: "Spiced Perfection" },
+  { category: "Events", img: "https://www.vivaahcelebrations.com/wp-content/uploads/2023/10/2-1.jpg", title: "Desert Celebration" },
+  { category: "Interior", img: "https://tse4.mm.bing.net/th/id/OIP.sMzpLzQluyaRrhThHnjgDgHaEo?pid=Api&P=0&h=220", title: "Amber Lounge" },
+  { category: "Food", img: "https://tse1.mm.bing.net/th/id/OIP.QbfsmCrQQvyb2vKW1frG_AHaDp?pid=Api&P=0&h=220", title: "Spice Heritage" },
+  { category: "Events", img: "https://tse3.mm.bing.net/th/id/OIP.47XjhPgpo9qgnJ_yGLKx3wHaEJ?pid=Api&P=0&h=220", title: "Festival Evening" },
+  { category: "Interior", img: "https://images.ctfassets.net/m868ks80jg7q/2i6Pr71M0BcTCqnnXXbc52/8af99b4f4088a99ce9defd58a2e173b9/Sunset.jpg?w=600&h=415&fm=webp&fit=fill&q=75", title: "Sunset Terrace" },
+  { category: "Food", img: "https://tse1.mm.bing.net/th/id/OIP.VjB7SEn7V0TODQfnJIgO4QHaEJ?pid=Api&P=0&h=220", title: "Dessert Art" },
+  { category: "Events", img: "https://tse1.mm.bing.net/th/id/OIP._WvqUaOSOjfA-p_MPQI5MgHaFj?pid=Api&P=0&h=220", title: "Gala Night" },
+  { category: "Interior", img: "https://tse2.mm.bing.net/th/id/OIP.ExGGAijHUQVPUUZ46jBxqwHaHa?pid=Api&P=0&h=220", title: "Tea House" },
 ];
 
 const TIMELINE = [
@@ -1303,7 +1303,7 @@ function About() {
           </div>
         </div>
         <div className="relative group animate-in fade-in duration-700 delay-200">
-          <img src="https://images.unsplash.com/photo-1522157183959-39b1e2e50ebc?w=800&q=85"
+          <img src="https://luxe.net/wp-content/uploads/2015/08/dubai-one-only-royal-mirage-1.jpg"
             alt="Mirage interior" className="w-full h-[500px] object-cover group-hover:shadow-2xl transition-shadow" loading="lazy" />
           <div className="absolute -bottom-5 -left-5 bg-[#D97706] p-6 group-hover:bg-[#F59E0B] transition-colors cursor-pointer">
             <p className="font-serif text-4xl text-[#1F1105] font-bold">2010</p>
